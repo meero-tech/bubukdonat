@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #48478a
+}
+nav{
+    position: fixed;
+    left: 30%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transform: translate(-50%,-50%);
+}
+a{
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    padding: 1em 0;
+    display: inline-block;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+
+
+}
+.line{
+    width: 120px;
+    height: 3px;
+    background-color: #FFF;
+    transition: all .4s ease-in-out;
+
+}
+a:nth-child(2):hover ~ .line {
+    transform: translate(125px);
+    transition: all .4s ease-in-out;
+    background-color: tomato;
+}
+a:nth-child(2):hover{
+    color: tomato;
+}
+
+a:nth-child(3):hover ~ .line {
+    transform: translate(250px);
+    transition: all .4s ease-in-out;
+    background-color: yellow;
+}
+a:nth-child(3):hover{
+    color: yellow;
+}
+a:nth-child(4):hover ~ .line {
+    transform: translate(375px);
+    transition: all .4s ease-in-out;
+    background-color: skyblue;
+}
+a:nth-child(4):hover{
+    color: skyblue;
+}
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    position: fixed;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+h1.judulweb{
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+}
+h2.bawahjudul{
+    text-align: center;
+}
