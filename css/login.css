@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(perpus.jpg);
+    background: url(img/perpus.jpg);
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -10,14 +10,14 @@ body{
 }
 
 .log-inbox{
-    width: 320px;
-    height: 420px;
+    width: 400px;
+    height: 600px;
     background: #000;
     color: #fff;
     top: 50%;
     left: 50%;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-40%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
 
@@ -54,6 +54,10 @@ h1{
     color: #fff;
     font-size: 16px;
 
+}
+
+.log-inbox input[type="radio"]{
+    width: auto;
 }
 
 .log-inbox input[type="submit"]{
