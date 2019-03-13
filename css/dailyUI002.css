@@ -47,7 +47,8 @@ table, th, td {
   
 }
 button{
-  background-color: whitesmoke; /* Green */
+  background-color: white;
+  opacity: 0.7; /* Green */
   border: 1px solid #ccc;
   border-radius: 5px;
   color: #4877db;
@@ -80,12 +81,14 @@ button:hover{
 
 .expired input[type="text"]{
   width: 40%;
+  opacity: 0.7;
 }
 
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
+  opacity: 0.7;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -100,6 +103,7 @@ input[type=password], select {
   border: 1px solid #F78C8C;
   border-radius: 4px;
   box-sizing: border-box;
+  opacity: 0.7;
 }
 
 p{
