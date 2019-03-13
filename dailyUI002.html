@@ -8,128 +8,140 @@
 
 </head>
 <body>
-
-<div class="split left">
-  <div class="kiri">
-    <h2>SHOPPING CART</h2>
-    <div class="item1">
-        
-
-    </div>
-    <div class="item2"> 
-    </div>
-    <hr>
-    <table cellpadding="5">
+  <!--<section>
+      <div>
+          <img src="css/img/dailyUI002.png" alt="foto desain" style="padding:16px;width:50%">
+      </div>
+  </section>-->
+  <section>
+    
+  <div>
+      
+      <div class="split left">
+          
+            <h2>SHOPPING CART</h2>
+            <hr>
+            <table cellpadding="2">
+                        <tr >
+                          <th rowspan="2"><img class="buku" src="css/img/perpus.jpg" width="20" height="40" alt="foto buku"></th>
+                          <th width="300"><b>Matematika SMP</b></th>
+                          <th><b>$299.00</b></th>
+                        </tr>
+                        <tr>
+                          <td width="300">+3 Year Protection Plan</td>
+                          <td>+30.00</td>
+                        </tr>   
+            </table>
+            <table cellpadding="2">
                 <tr>
-                  <th rowspan="2"><img src="css/img/perpus.jpg" width="200" height="40" alt="foto buku"></th>
-                  <th><b>Matematika SMP</b></th>
+                  <th rowspan="2"><img class="buku"src="css/img/perpus.jpg" width="20" height="40" alt="foto buku"></th>
+                  <th width="300"><b>Matematika SMP</b></th>
                   <th><b>$299.00</b></th>
                 </tr>
                 <tr>
-                   <td>+3 Year Protection Plan</td>
-                   <td>+30.00</td>
-                 </tr>   
-    </table>
-    <hr>
-    <table cellpadding="5">
-        <tr>
-          <th rowspan="2"><img src="css/img/perpus.jpg" width="200" height="40" alt="foto buku"></th>
-          <th><b>Matematika SMP</b></th>
-          <th><b>$299.00</b></th>
-        </tr>
-        <tr>
-           <td>+3 Year Protection Plan</td>
-           <td>+30.00</td>
-         </tr>   
-    </table>
-    <hr>
-    <form class="edit">
-        <input type="submit" name="Edit" value="Edit">
-    </form>
-    <hr>
-    <table>
-      <tr>
-        <td>Sub-total</td>
-        <td>$679.75</td>
-      </tr>
-      <tr>
-        <td>Shipping Change</td>
-        <td>FREE</td>
-      </tr>
-      <tr>
-        <td>Sales Tax</td>
-        <td>$54.38</td>
-      </tr>
-      <tr>
-        <td>TOTAL:</td>
-        <td>$734.13</td> 
-      </tr>
-    </table>
-    
-    
-  </div>
-
-</div>
-
-<div class="split right">
-  <div class="centered">
-    <div class="container">
-      <ul class="progressbar">
-        <li>Shopping Cart</li>
-        <li>Shopping Info</li>
-        <li class="active">Payment</li>
-        <li>Review Order</li>
-        <li>Submit Payment</li>
-        
-      </ul>
-    </div>
-    <div>
-        <form>
-            <table class="card">
-              <tr>
-                <td>
-                    <p>Name on Card</p>
-                    <input type="text" name="" placeholder="Enter Your Name">
-                </td>
-                <td> 
-                    <p>Billing Address</p>
-                    <input type="submit" name="Use Shipping Address" value="Review Order">
-                    <input type="submit" name="+ Add Address" value="Review Order">
-                </td>
-                 
-              </tr>
-              <tr>
-                <td>
-                    <p>Card Number</p>
-                    <input type="password" name="" placeholder="Enter Your Card Number">
-                    <input type="submit" name="" value="Visa">
-                    <input type="submit" name="" value="Master Card">
-                </td>
-              </tr>
-              <tr>
-                <td>
-                    <p>Expiration Date</p>
-                    <input type="text" name="" placeholder="MM">
-                    <input type="text" name="" placeholder="YYYY">
-                </td>
-                <td>
-                    <p>CVV</p>
-                    <input type="CVV" name="" placeholder="####">
-                </td>
-                
-              </tr>
-              <tr>
-                  <td>
-                    <input type="submit" name="review-order" value="Review Order">
-                  </td>
-              </tr>
+                  <td width="300">+3 Year Protection Plan</td>
+                  <td>+30.00</td>
+                </tr>   
             </table>
-        </form>
+            <hr>
+            <form class="edit">
+                <input type="submit" name="Edit" value="Edit">
+            </form>
+            <hr>
+            <table>
+              <td class="total">
+                  <tr>
+                      <td width="350">Sub-total<br>Shipping Change<br>Sales Tax</td>
+                      <td>$679.75<br>FREE<br>$54.38</td>
+                    </tr>
+                   
+                    <tr>
+                      <td class="totall"><b><b>TOTAL:</b></b></td>
+                      <td class="oren"><b>$734.13</b></td> 
+                    </tr>
 
+              </td>
+              
+            </table>
+            
+            
+          
+        
+        </div>
+        
+        <div class="split right">
+          <div class="centered">
+            <div class="container">
+              <ul class="progressbar">
+                <li>Shopping Cart</li>
+                <li>Shopping Info</li>
+                <li class="active">Payment</li>
+                <li>Review Order</li>
+                <li>Submit Payment</li>
+                
+              </ul>
+            </div>
+            <div>
+                <form>
+                    <table class="card">
+                      <tr>
+                        <td>
+                            <p>Name on Card</p>
+                            <input type="text" name="" placeholder="Enter Your Name">
+                        </td>
+                        <td class="bill-address"> 
+                            <p>Billing Address</p>
+                            <input type="submit" name="Use Shipping Address" value="Use Shipping Address">
+                            <input type="submit" name="+ Add Address" value="+ Add Address">
+                        </td>
+                        
+                      </tr>
+                      <tr>
+                        <td>
+                            <p>Card Number</p>
+                            <input type="password" name="" placeholder="Enter Your Card Number">
+                        </td>
+                        <td class="visa-master">
+                          <input type="submit" src="css/img/visa.png" name="" value="Visa">
+                          <input type="submit" name="" value="Master Card">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="expired">
+                            <p>Expiration Date</p>
+                            <input  type="text" name="" placeholder="MM">
+                            <input  type="text" name="" placeholder="YYYY">
+                        </td>
+                        <td>
+                            <p>CVV</p>
+                            <input type="password" name="" placeholder="####">
+                        </td>
+                        
+                      </tr>
+                      <tr>
+                          <td class="finishing">
+                            <button><b>Review Order</b></button>
+                          </td>
+                      </tr>
+                    </table>
+                </form>
+                
+        
+            </div>
+            
+          </div>
+        </div>
+  
     </div>
     
-  </div>
-</div>
+
+  </section>
+   
+
      
 </body>
+<footer>
+    
+
+</footer>
 </html> 

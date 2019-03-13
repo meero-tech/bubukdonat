@@ -18,6 +18,7 @@ body {
     right: 70%;
     background-color: #fff;
     color: #62759d;
+    font-size: 10pt;
   }
   
   .right {
@@ -26,33 +27,106 @@ body {
   }
   
 h2{
-    padding-top: 100px;
+    padding-top: 70px;
     padding-left: 40px;
     text-align: left;
 }
-img{
+.buku{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 0px;
   width: 100px;
-  height: 150px;
+  height: 70px;
 }
-
+.total{
+  paddingg: 0px;
+}
 table, th, td {
   padding: 10px;
+  text-align: left;
+  
 }
 button{
-  background-color: white;
+  background-color: whitesmoke; /* Green */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #4877db;
+
+  padding: 10px 28px;
+  text-align: center;  
+  display: inline-block;
   font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #4877db; /* Green */
+  color: white;
+  opacity: 0.9;
 }
 .edit input[type="submit"]{
+  width: 150px;
   margin-left : 40%; 
-  border-radius: 20px;
-  padding: 10px;
-  background-color:white;
+  border-radius: 10px;
+  border: 2px solid #4877db;
+  padding: 8px;
+  background-color: white;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 10pt;
 }
+
+.expired input[type="text"]{
+  width: 40%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #F78C8C;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+p{
+  font-size: 12pt;
+}
+.visa-master{
+
+}
+.bill-address input[type = "submit"]:hover{
+  background-color: #4F89FD; /* Green */
+  color: white;
+  opacity: 0.9;
+}
+.edit input[type="submit"]:hover{
+    background-color: #4877db; /* Green */
+    color: white;
+    opacity: 0.9;
+}
+
+.finishing input[type = "submit"]:hover{
+  background-color: #4877db; /* Green */
+  color: white;
+  opacity: 0.9;
+
+}
+
+
 #wrap{
   width:485px;
 }
@@ -61,15 +135,20 @@ button{
 }
 
 .card input[type="submit"]{
-  border-radius: 20px;
+  
+  border-radius: 5px;
   padding: 10px;
-  background-color:white;
+  background-color:transparent;
+  
+  border: 2px solid #4877db; 
 }
+
 .container{
   width: 100%;
 }
 .progressbar{
   counter-reset: step;
+  font-size: 11pt;
 }
 .progressbar li{
   list-style-type:none;
@@ -78,6 +157,7 @@ button{
   position: relative;
   text-align: center;
   color: white;
+  
 }
 .progressbar li:before{
   content: counter(step);
@@ -112,6 +192,12 @@ button{
   content: none;
 
 }
+
+.total{
+    padding: 5px;
+    font-size: 15pt;
+  
+}
 .progressbar li.active{
   font-weight: bold;
   text-transform: uppercase;
@@ -121,4 +207,16 @@ button{
 }
 .progressbar li.active + li:after{
   background-color:orange;;
+}
+
+li{
+  font-size: 12pt;
+}
+
+.totall{
+  font-size: 15pt;
+}
+.oren{
+  color: orange;
+  font-size: 15pt;
 }
